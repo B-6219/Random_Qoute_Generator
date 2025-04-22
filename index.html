@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+</head>
+<body>
+
+    <style>
+        :root{
+            --Background : #0D0D0D ; 
+            --Neon_Green : #1FED0C; 
+            --Soft_Gray : #2F2F2F ;
+            --Border_Accent :#3AFF5C ;
+            --Text : #E0E0E0 ;
+            --orange:rgb(255, 165, 0);
+
+        }
+        body{
+          background-color:var(--Background) ;  
+        }
+        .main h1{
+            color: var(--Text);
+        }
+        .main{
+            height: 400px;
+            width: 420px;
+            background-color: var(--Soft_Gray);
+        }
+        .box{
+            margin: 10px;
+            border: 1px solid;
+            width: 400px;
+            border-radius: 10px;
+            background-color:var(--orange);
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            background-color: #1FED0C;
+            margin: 20px;
+            font-style: italic;
+            font-size: 15px;
+            padding: 10px;
+        }
+        .box p{
+            padding: 10px;
+        }
+    </style>
+    
+    <div class="main">
+
+        <h1>Random Quote Generator</h1>
+
+        <div class="box">
+            <p id="quote_text"></p>
+        </div>
+        
+        <button id="myButton" onclick="generateQuote()">Generate Quote</button>
+
+    </div>
+
+    
+    <script src="main.js"></script>
+</body>
+</html>

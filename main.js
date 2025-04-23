@@ -32,7 +32,13 @@ const my_array =[
     "Success is a lousy teacher. It seduces smart people into thinking they can’t lose. – Bill Gates",
     "Don’t worry if it doesn’t work right. If everything did, you’d be out of a job. – Mosher’s Law",
     "The function of good software is to make the complex appear simple.",
-    "Great software is not built with 1000 features, but with 1000 decisions. – Jack Dorsey"
+    "Great software is not built with 1000 features, but with 1000 decisions. – Jack Dorsey",
+    "Indentation in Python isn’t a bug, it's a discipline. – Brian Kamau",
+    "Python is where simplicity meets power. – Brian Kamau",
+    "Every Python function starts with def, just like every coder starts with a dream. – Brian Kamau",
+    "In Python, whitespace isn’t empty—it’s full of meaning. – Brian Kamau",
+    "Coding in Python feels like writing poetry that runs. – Brian Kamau"
+
 ]
 
 const usedIndexes = new Set()

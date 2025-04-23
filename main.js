@@ -1,4 +1,5 @@
 const my_array =[
+    "When you scroll I script, when you sleep I ship - Brian Kamau",
     "Code is like humor. When you have to explain it, it’s bad. – Cory House",
     "Talk is cheap. Show me the code. – Linus Torvalds",
     "Programs must be written for people to read, and only incidentally for machines to execute. – Harold Abelson",

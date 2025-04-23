@@ -37,7 +37,13 @@ const my_array =[
     "Python is where simplicity meets power. – Brian Kamau",
     "Every Python function starts with def, just like every coder starts with a dream. – Brian Kamau",
     "In Python, whitespace isn’t empty—it’s full of meaning. – Brian Kamau",
-    "Coding in Python feels like writing poetry that runs. – Brian Kamau"
+    "Coding in Python feels like writing poetry that runs. – Brian Kamau",
+    "JavaScript is chaos... until you make it your playground. – Brian Kamau",
+    "In JavaScript, everything is possible. Even undefined. – Brian Kamau",
+    "Let your code be async, but never your goals. – Brian Kamau",
+    "Variables change, but your grind shouldn’t. – Brian Kamau",
+    "When JavaScript breaks, it’s not an error—it’s a plot twist. – Brian Kamau"
+  
 
 ]
 

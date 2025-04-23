@@ -37,8 +37,9 @@ body {
     margin: 0 auto;
     border-radius: 10px;
     background-color: var(--orange);
-    color:black;
+    color: black;
     border: none;
+
     }
 
     .box p {

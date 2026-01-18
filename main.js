@@ -1,4 +1,4 @@
-const my_array =[
+const my_array = [
     "When you scroll I script, when you sleep I ship - Brian Kamau",
     "Code is like humor. When you have to explain it, it’s bad. – Cory House",
     "Talk is cheap. Show me the code. – Linus Torvalds",
@@ -43,23 +43,22 @@ const my_array =[
     "Let your code be async, but never your goals. – Brian Kamau",
     "Variables change, but your grind shouldn’t. – Brian Kamau",
     "When JavaScript breaks, it’s not an error—it’s a plot twist. – Brian Kamau"
-  
+
 
 ]
 
 const usedIndexes = new Set()
 const quote_text = document.getElementById("quote_text")
 
-function generateQuote(){
-
-    if (usedIndexes.size === my_array.length){
-        alert("You have seen all the Qoutes.Restating..")
-        usedIndexes.clear();
+const genetateQuote = () => {
+    if (usedIndexes === my_array.length) {
+        alert("You have seen all the quotes. Restarting........")
+        usedIndexes.clear()
     }
 
-   
 
-   const random_index = Math.floor(Math.random() * my_array.length)
-   const the_quote = my_array[random_index]
-   quote_text.innerHTML = the_quote;
+    const random_index = Math.floor(Math.random() * my_array.length)
+    const the_quote = my_array[random_index]
+    quote_text.innerHTML = the_quote;
+
 }

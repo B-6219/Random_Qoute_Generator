@@ -1,85 +1,69 @@
-:root {
-    --Background: #0D0D0D;
-    --Neon_Green: #1FED0C;
-    --Soft_Gray: #2F2F2F;
-    --Border_Accent: #3AFF5C;
-    --Text: #E0E0E0;
-    --orange: rgb(255, 165, 0);
-}
-
-* {
+*/ * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-    background-color: var(--Background);
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.main {
-    max-width: 500px;
-    width: 90%;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: var(--Soft_Gray);
-    border-radius: 10px;
-    box-shadow: 0 0 15px var(--Neon_Green);
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
-.main h1 {
+.main {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 30px;
+    width: 90%;
+    max-width: 420px;
     text-align: center;
-    color: var(--Text);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
     margin-bottom: 20px;
+    font-size: 1.6rem;
 }
 
 .box {
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 10px;
-    background-color: var(--orange);
-    color: black;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote_text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+button {
+    background: #fbbf24;
     border: none;
+    color: #000;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
 
-    }
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
 
-    .box p {
-        padding: 15px;
-        text-align: center;
-        font-size: 1rem;
-    }
-
-    button {
-        background-color: var(--Neon_Green);
-        color: black;
-        padding: 12px 20px;
-        font-size: 1rem;
-        border: none;
-        border-radius: 8px;
-        display: block;
-        margin: 20px auto;
-        cursor: pointer;
-        transition: 0.3s ease;
-    }
-    button:hover {
-        background-color: #19c30a;
-    }
-
-    .main #produced {
-        text-align: center;
-        color: rgb(29, 112, 236);
-        margin-top: 10px;
-    }
-
-    /* ✅ Extra responsive tweaks (Optional but smooth) */
-    @media (max-width: 400px) {
-        .box p {
-            font-size: 0.9rem;
-        }
-
-        button {
-            font-size: 0.9rem;
-            padding: 10px;
-        }
-    }
-
-
+#produced {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
